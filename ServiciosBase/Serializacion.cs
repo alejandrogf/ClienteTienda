@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Script.Serialization;
 
 
-namespace BaseServicio
+namespace ServiciosBase
 {
     public class Serializacion<TipoGenerico>
     {
@@ -13,6 +14,7 @@ namespace BaseServicio
         public static TipoGenerico Deserializar(String objeto)
         {
             var ser = new JavaScriptSerializer();
+
             var data = ser.Deserialize<TipoGenerico>(objeto);
             return data;
         }

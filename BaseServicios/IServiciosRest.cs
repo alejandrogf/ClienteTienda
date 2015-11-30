@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaseServicios
+namespace BaseServicio
 {
     public interface IServiciosRest<TModelo>
     {

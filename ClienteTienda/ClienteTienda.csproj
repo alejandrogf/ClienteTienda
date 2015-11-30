@@ -167,9 +167,9 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaseServicios\BaseServicios.csproj">
-      <Project>{274e390c-8964-48c8-8254-463edae4086f}</Project>
-      <Name>BaseServicios</Name>
+    <ProjectReference Include="..\ServiciosBase\ServiciosBase.csproj">
+      <Project>{CD7C1975-A272-4C56-98A4-6099B58CC788}</Project>
+      <Name>ServiciosBase</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

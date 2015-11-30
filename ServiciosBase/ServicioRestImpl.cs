@@ -8,7 +8,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaseServicio
+namespace ServiciosBase
 {
     public class ServicioRestImpl<TModelo> : IServiciosRest<TModelo>
     {
@@ -120,7 +120,7 @@ namespace BaseServicio
         {
             List<TModelo> lista;
             var urlDest = url;
-            
+
             if (paramUrl != null)
             {
                 urlDest += paramUrl;
